@@ -27,7 +27,7 @@ export function numberToStandardForm(
    strNumber: string, associationMap: IAssociationMap = baseAssociationMap
 ): string { 
 
-   let number = strNumber.replace(/-/g, '').split('')
+   let number = strNumber.replace(/-/g, '').toLowerCase().split('')
       .map(c => (c in associationMap) ? associationMap[c] : c)
       .join('');
    

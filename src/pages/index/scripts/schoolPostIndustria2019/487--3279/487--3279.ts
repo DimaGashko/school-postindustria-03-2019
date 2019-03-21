@@ -1,6 +1,6 @@
-import getFrequencyOfNumbers from "./getAngleOfClockHands";
+import getFrequencyOfNumbers from "./getFrequencyOfNumbers";
 
-(<any>window).fillMinesMap = getFrequencyOfNumbers;
+(<any>window).getFrequencyOfNumbers = getFrequencyOfNumbers;
 
 console.log('%c * * * 487--3279 * * *', 'color: red');
 

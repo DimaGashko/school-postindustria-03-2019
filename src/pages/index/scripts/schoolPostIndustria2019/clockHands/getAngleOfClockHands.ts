@@ -1,4 +1,4 @@
-export default function getAngleOfClockHands(timeStr: string) { 
+export default function getAngleOfClockHands(timeStr: string): number { 
    const time = timeStr.split(':').map(comp => parseInt(comp));
    const h = time[0];
    const m = time[1];

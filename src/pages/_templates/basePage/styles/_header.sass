@@ -2,8 +2,13 @@
 .header 
    background-color: $g-color2
    color: $g-color1
-   padding: 20px
+   padding-top: 20px
+   padding-bottom: 20px
    margin-bottom: 35px
+
+.header__container
+   @extend %container
+   max-width: 1200px
 
 // Logo 
 .logo 
@@ -19,6 +24,8 @@
    height: 50px
    display: inline-block
    vertical-align: middle
+   position: relative
+   left: -2px
 
    transform: rotate(0deg)
 

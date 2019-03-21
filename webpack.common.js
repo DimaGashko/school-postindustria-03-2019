@@ -8,7 +8,7 @@ const cssnano = require('cssnano');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
-const pagesConfig = require("./src/pages/_templates/pagesConfig.pug")
+const pagesConfig = require("./src/pagesConfig.pug")
 
 const imageWebpackLoaderConfig = {
    mozjpeg: {

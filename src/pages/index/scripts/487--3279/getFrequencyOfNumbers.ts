@@ -13,8 +13,17 @@ const baseAssociationMap: IAssociationMap = {
 	w: '9', x: '9', y: '9'
 }
 
+/**
+ * Возвращает массив частотности переданных номеров
+ * Номера могут передаваться в нестандартном виде 
+ * (при этом они преобразовываются к стандартному виду)
+ * 
+ * @param numbers массив номеров
+ * @param minFrequency минимальная частотность, что попадает в результат
+ * @param associationMap хэш таблица ассоциаций для цифр
+ */
 export default function getFrequencyOfNumbers(
-   numbers: string[], minFrequency: number = 1,
+   numbers: string[], minFrequency: number = 2,
    associationMap: IAssociationMap = baseAssociationMap
 ): {number: string, frequency: number}[] { 
 
@@ -33,7 +42,7 @@ export default function getFrequencyOfNumbers(
    
    for (let number in frequencyMap) {
       const frequency = frequencyMap[number];
-      if (frequency <= minFrequency) continue; 
+      if (frequency < minFrequency) continue; 
 
       res.push({number, frequency});
    }

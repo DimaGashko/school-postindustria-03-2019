@@ -17,10 +17,20 @@ const baseAssociationMap: IAssociationMap = {
 	w: '9', x: '9', y: '9'
 }
 
-export default function getFrequencyOfNumbers(numbers: string[], associationMap = baseAssociationMap) { 
+export default function getFrequencyOfNumbers(
+   numbers: string[], associationMap: IAssociationMap = baseAssociationMap
+) { 
 
 }
 
-export function numberToStandardForm() { 
+export function numberToStandardForm(
+   strNumber: string, associationMap: IAssociationMap = baseAssociationMap
+): string { 
 
+   let number = strNumber.replace(/-/g, '').split('')
+      .map(c => (c in associationMap) ? associationMap[c] : c)
+      .join('');
+   
+   number = `${number.slice(0, 3)}-${number.slice(3)}`;
+   return number;
 }

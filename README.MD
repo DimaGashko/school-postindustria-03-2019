@@ -23,3 +23,35 @@ Program: [school.postindustria.com](https://school.postindustria.com/)
 ![My Submissions](./other/img/my-submissions.png)
 ![Solved Problems](./other/img/solved-problems.png)
 ![Solved Problems](./other/img/typescript-results.png)
+
+## TS solution build
+
+Install dependencies:
+
+```bash
+yarn
+```
+
+Development:
+
+```bash
+yarn start # host: http://localhost:8080/
+```
+
+Build:
+
+```bash
+yarn build
+```
+
+Build server:
+
+```bash
+yarn static # host: http://localhost:8000/
+```
+
+Run tests:
+
+```bash
+yarn test
+```

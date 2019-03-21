@@ -2,10 +2,6 @@ export interface IAssociationMap {
    [key: string]: string;
 }
 
-export interface IFrequencyOfNumbers {
-   [num: string]: number;
-}
-
 const baseAssociationMap: IAssociationMap = {
    a: '2', b: '2', c: '2',
 	d: '3', e: '3', f: '3',
@@ -18,24 +14,41 @@ const baseAssociationMap: IAssociationMap = {
 }
 
 export default function getFrequencyOfNumbers(
-   numbers: string[], associationMap: IAssociationMap = baseAssociationMap
-): IFrequencyOfNumbers { 
+   numbers: string[], minFrequency: number = 1,
+   associationMap: IAssociationMap = baseAssociationMap
+): {number: string, frequency: number}[] { 
 
-   const standardNumbers = numbers.map(num => numberToStandardForm(num));
-   const frequency: IFrequencyOfNumbers = {};  
-   
-   standardNumbers.forEach((number) => { 
-      frequency[number] = (number in frequency) ?
-         frequency[number] + 1 : 0;
+   const standardNumbers = numbers.map((num) => {
+      return numberToStandardForm(num, associationMap)
    });
 
-   return frequency;
+   const frequencyMap: {[num: string]: number} = {};  
+   
+   standardNumbers.forEach((number) => { 
+      frequencyMap[number] = (number in frequencyMap) ?
+      frequencyMap[number] + 1 : 0;
+   });
+
+   const res: { number: string, frequency: number }[] = [];
+   
+   for (let number in frequencyMap) {
+      const frequency = frequencyMap[number];
+      if (frequency <= minFrequency) continue; 
+
+      res.push({number, frequency});
+   }
+
+   res.sort((a, b) => { 
+      return a.number > b.number ? 1 : -1;
+   });
+
+   return res;
 }
 
 export function numberToStandardForm(
    strNumber: string, associationMap: IAssociationMap = baseAssociationMap
 ): string { 
-
+   
    let number = strNumber.replace(/-/g, '').toLowerCase().split('')
       .map(c => (c in associationMap) ? associationMap[c] : c)
       .join('');

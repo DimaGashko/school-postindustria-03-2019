@@ -12,7 +12,7 @@ Program: [school.postindustria.com](https://school.postindustria.com/)
 
 ### Source code
 
-- [C++ solution](./cpp-solution) 
+- [C++ solution](./cpp-solution)
 - [TS Solution](./src/pages/index/scripts/school-post-industria-2019)
 
 ### Results

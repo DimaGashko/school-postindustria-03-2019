@@ -1,5 +1,5 @@
 import { expect, assert } from 'chai';
-import getFrequencyOfNumbers from './getFrequencyOfNumbers';
+import getFrequencyOfNumbers from './getAngleOfClockHands';
 
 describe('getFrequencyOfNumbers', () => {
    it('Base Test', () => {

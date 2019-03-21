@@ -1,4 +1,4 @@
-import getFrequencyOfNumbers from "./getFrequencyOfNumbers";
+import getFrequencyOfNumbers from "./getAngleOfClockHands";
 
 (<any>window).fillMinesMap = getFrequencyOfNumbers;
 
@@ -28,7 +28,7 @@ const res = inputNumbers.map((numbers, i) => {
    return result.map((item) => {
       return `${item.number} ${item.frequency}`;
    }).join('\n');
-   
+
 }).join('\n\n');
 
 console.log(res);

@@ -2,8 +2,8 @@
  * 
  * @param minesMap 
  */
-export default function fillMinesMap(minesMap: string[]) {
-   if (!minesMap.length) return;
+export default function fillMinesMap(minesMap: string[]): string[] {
+   if (!minesMap.length) return [];
    const iSize = minesMap.length;
    const jSize = minesMap[0].length;
 

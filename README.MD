@@ -15,7 +15,7 @@ Program: [school.postindustria.com](https://school.postindustria.com/)
 - [C++ solution](./cpp-solution) 
 - [TS Solution](./src/pages/index/scripts/school-post-industria-2019)
 
-### Start tasks results
+### Results
 
 ![487--3279](./other/img/minesweeper.png)
 ![487--3279](./other/img/487--3279.png)

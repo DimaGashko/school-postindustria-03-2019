@@ -1,8 +1,4 @@
-# name.~docx, name.~vsdx, ~$name.doc etc.
-/**/*.~*
-/**/~$*.*
-
-modelling/developmentSnapshots/video/
+other/report/tsSolution/
 
 # compiled output
 /dist
@@ -11,6 +7,10 @@ modelling/developmentSnapshots/video/
 
 # dependencies
 /node_modules
+
+# name.~docx, name.~vsdx, ~$name.doc etc.
+/**/*.~*
+/**/~$*.*
 
 # IDEs and editors
 /.idea

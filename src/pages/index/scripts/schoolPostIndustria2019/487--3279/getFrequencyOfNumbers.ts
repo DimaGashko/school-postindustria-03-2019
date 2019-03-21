@@ -26,7 +26,7 @@ export default function getFrequencyOfNumbers(
    
    standardNumbers.forEach((number) => { 
       frequencyMap[number] = (number in frequencyMap) ?
-      frequencyMap[number] + 1 : 0;
+      frequencyMap[number] + 1 : 1;
    });
 
    const res: { number: string, frequency: number }[] = [];

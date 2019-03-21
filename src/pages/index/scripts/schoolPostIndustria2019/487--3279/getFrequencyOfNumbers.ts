@@ -3,7 +3,7 @@ export interface IAssociationMap {
 }
 
 export interface IFrequencyOfNumbers {
-   [num: number]: number;
+   [num: string]: number;
 }
 
 const baseAssociationMap: IAssociationMap = {
@@ -19,8 +19,17 @@ const baseAssociationMap: IAssociationMap = {
 
 export default function getFrequencyOfNumbers(
    numbers: string[], associationMap: IAssociationMap = baseAssociationMap
-) { 
+): IFrequencyOfNumbers { 
 
+   const standardNumbers = numbers.map(num => numberToStandardForm(num));
+   const frequency: IFrequencyOfNumbers = {};  
+   
+   standardNumbers.forEach((number) => { 
+      frequency[number] = (number in frequency) ?
+         frequency[number] + 1 : 0;
+   });
+
+   return frequency;
 }
 
 export function numberToStandardForm(

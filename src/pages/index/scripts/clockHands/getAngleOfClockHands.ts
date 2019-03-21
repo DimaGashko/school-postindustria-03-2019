@@ -1,3 +1,7 @@
+/**
+ * Возвращает угол между часовой и минутной стрелками
+ * @param timeStr время в виде строки в формате "H:MM"
+ */
 export default function getAngleOfClockHands(timeStr: string): number { 
    const time = timeStr.split(':').map(comp => parseInt(comp));
    const h = time[0];

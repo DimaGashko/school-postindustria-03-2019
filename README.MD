@@ -10,7 +10,7 @@ Program: [school.postindustria.com](https://school.postindustria.com/)
 
 ## Start tasks results
 
-- ![487--3279](./other/img/487--3279.png)
-- ![Clock Hands](./other/img/clock-hands.png)
-- ![My Submissions](./other/img/my-submissions.png)
-- ![Solved Problems](./other/img/solved-problems.png)
+![487--3279](./other/img/487--3279.png)
+![Clock Hands](./other/img/clock-hands.png)
+![My Submissions](./other/img/my-submissions.png)
+![Solved Problems](./other/img/solved-problems.png)

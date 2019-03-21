@@ -4,11 +4,18 @@ Program: [school.postindustria.com](https://school.postindustria.com/)
 
 ## Start tasks
 
+### Tasks
+
 1. [Minesweeper](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=13&page=show_problem&problem=1130)
 1. [487--3279](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=696)
 1. [Clock Hands](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=520)
 
-## Start tasks results
+### Source code
+
+- [C++ solution](./cpp-solution) 
+- [TS Solution](./src/pages/index/scripts/school-post-industria-2019)
+
+### Start tasks results
 
 ![487--3279](./other/img/minesweeper.png)
 ![487--3279](./other/img/487--3279.png)

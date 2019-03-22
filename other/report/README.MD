@@ -22,8 +22,8 @@ Contacts:
 I'm on:
 
 - GitHub: [github.com/DimaGashko](https://github.com/DimaGashko/)
-- E-olimp: [https://www.e-olymp.com/ru/users/DimaGashko](https://www.e-olymp.com/ru/users/DimaGashko)
 - Weblancer: [weblancer.net/users/DimaGashko/](https://www.weblancer.net/users/DimaGashko/)
+- E-olimp: [https://www.e-olymp.com/ru/users/DimaGashko](https://www.e-olymp.com/ru/users/DimaGashko)
 
 My name is Dmitry Gashko. Write now I'm a student at
 Admiral Makarov National University of Shipbuilding (software engineering; in second year).

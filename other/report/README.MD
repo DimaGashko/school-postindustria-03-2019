@@ -9,7 +9,7 @@ I solved tasks in С++ and TypeScript.
 - [C++ solution](./cppSolution)
 - [TS Solution](./tsSolution)
 
-You can see TS project by GitHub link
+You can see TS project by GitHub link.
 
 ## About me
 
@@ -43,8 +43,10 @@ Other:
 
 - JavaScript & TypeScript (I love both, but TS more)
 - HTML (Pug), CSS (SASS) - I like preprocessors
-- Webpack, Gulp (and Grunt...), GIT, GitGub,
+- Webpack, Gulp (and Grunt...), GIT, GitHub,
 - Canvas 2d, WebComponents (basics), jQuery...
+
+I have No knowledge on back-end technologies (I only can recognize php code from code in other languages).
 
 There are some of my projects:
 [github.com/DimaGashko/ListOfMyProjects](https://github.com/DimaGashko/ListOfMyProjects)

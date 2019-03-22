@@ -46,7 +46,7 @@ Other:
 - Webpack, Gulp (and Grunt...), GIT, GitHub,
 - Canvas 2d, WebComponents (basics), jQuery...
 
-I have No knowledge on back-end technologies (I only can recognize php code from code in other languages).
+I have No knowledge in back-end technologies (I only can recognize php code from code in other languages).
 
 There are some of my projects:
 [github.com/DimaGashko/ListOfMyProjects](https://github.com/DimaGashko/ListOfMyProjects)

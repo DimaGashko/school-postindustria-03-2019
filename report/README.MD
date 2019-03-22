@@ -60,4 +60,4 @@ Of course I prefer Web Development.
 I really like English, but my English skills is not so good. Anyway I can
 learn from English sources. All technologies that I learnt by the last year I was learning only by official documentation, english articles and english YouTube (for example: SFML, JavaFX, JFoenix, basics of SQL, Webpack etc).
 
-That's definitely means than my listening skills is not too bad. But speaking and writing skills a little behind.
+That's definitely means that my listening skills is not too bad. But speaking and writing skills a little behind.

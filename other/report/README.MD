@@ -25,7 +25,7 @@ I'm on:
 - Weblancer: [weblancer.net/users/DimaGashko/](https://www.weblancer.net/users/DimaGashko/)
 - E-olimp: [https://www.e-olymp.com/ru/users/DimaGashko](https://www.e-olymp.com/ru/users/DimaGashko)
 
-My name is Dmitry Gashko. Write now I'm a student at
+My name is Dmitry Gashko. Right now I'm a student at
 Admiral Makarov National University of Shipbuilding (software engineering; in second year).
 
 I love programming... in fact, I'm crazy about programming (look at my GitHub profile). I only started my developer way and I have to learn so much cool things.
@@ -37,7 +37,7 @@ By the University:
 - C++ (SFML)
 - Java (JavaFX, FXML, JFoenix)
 - Some knowledge of OOP
-- SQL (only basics)
+- SQL (basics only)
 
 Other:
 
@@ -57,4 +57,5 @@ Of course I prefer Web Development.
 
 ## About my English skills
 
-. . .
+I really like English, but my English skills is not so good. Anyway I can
+learn from English sources. All technologies that I learnt by the last year I was learning only by official documentation, english articles and english YouTube (for example: SFML, JavaFX, JFoenix, basics of SQL, Webpack etc).

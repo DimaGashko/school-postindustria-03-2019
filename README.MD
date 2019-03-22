@@ -12,18 +12,18 @@ Program: [school.postindustria.com](https://school.postindustria.com/)
 
 ### Solution
 
-- [Solution Folder](./other/report/)
-- [C++ solution](./other/report/cppSolution)
-- [TS Solution](./other/report/tsSolution)
+- [Solution Folder](./report/)
+- [C++ solution](./report/cppSolution)
+- [TS Solution](./report/tsSolution)
 
 ### Results
 
-![487--3279](./other/report/img/minesweeper.png)
-![487--3279](./other/report/img/487--3279.png)
-![Clock Hands](./other/report/img/clock-hands.png)
-![My Submissions](./other/report/img/my-submissions.png)
-![Solved Problems](./other/report/img/solved-problems.png)
-![Solved Problems](./other/report/img/typescript-results.png)
+![487--3279](./report/img/minesweeper.png)
+![487--3279](./report/img/487--3279.png)
+![Clock Hands](./report/img/clock-hands.png)
+![My Submissions](./report/img/my-submissions.png)
+![Solved Problems](./report/img/solved-problems.png)
+![Solved Problems](./report/img/typescript-results.png)
 
 ## TS solution build
 

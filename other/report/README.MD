@@ -7,7 +7,7 @@ Solution on GitHub: [github.com/DimaGashko/school-postindustria-03-2019](https:/
 I solved tasks in С++ and TypeScript.
 
 - [C++ solution](./cppSolution)
-- [TS Solution](./tsSolution)
+- [TS solution](./tsSolution)
 
 You can see TS project by GitHub link.
 
@@ -59,3 +59,5 @@ Of course I prefer Web Development.
 
 I really like English, but my English skills is not so good. Anyway I can
 learn from English sources. All technologies that I learnt by the last year I was learning only by official documentation, english articles and english YouTube (for example: SFML, JavaFX, JFoenix, basics of SQL, Webpack etc).
+
+That's definitely means than my listening skills is not too bad. But speaking and writing skills a little behind.

@@ -10,7 +10,7 @@ Program: [school.postindustria.com](https://school.postindustria.com/)
 1. [487--3279](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=696)
 1. [Clock Hands](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=520)
 
-### Source code
+### Solution
 
 - [Solution Folder](./other/report/)
 - [C++ solution](./other/report/cppSolution)

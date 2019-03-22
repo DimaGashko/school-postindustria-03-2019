@@ -17,12 +17,12 @@ Program: [school.postindustria.com](https://school.postindustria.com/)
 
 ### Results
 
-![487--3279](./other/img/minesweeper.png)
-![487--3279](./other/img/487--3279.png)
-![Clock Hands](./other/img/clock-hands.png)
-![My Submissions](./other/img/my-submissions.png)
-![Solved Problems](./other/img/solved-problems.png)
-![Solved Problems](./other/img/typescript-results.png)
+![487--3279](./other/report/img/minesweeper.png)
+![487--3279](./other/report/img/487--3279.png)
+![Clock Hands](./other/report/img/clock-hands.png)
+![My Submissions](./other/report/img/my-submissions.png)
+![Solved Problems](./other/report/img/solved-problems.png)
+![Solved Problems](./other/report/img/typescript-results.png)
 
 ## TS solution build
 

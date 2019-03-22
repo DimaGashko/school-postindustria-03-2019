@@ -14,7 +14,7 @@ Program: [school.postindustria.com](https://school.postindustria.com/)
 
 - [Solution Folder](./other/report/)
 - [C++ solution](./other/report/cppSolution)
-- [TS Solution](./src/pages/index/scripts/)
+- [TS Solution](./other/report/tsSolution)
 
 ### Results
 

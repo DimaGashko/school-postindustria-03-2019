@@ -20,10 +20,11 @@ module.exports = function (config) {
       basePath: '',
       frameworks: ['mocha', 'chai', 'sinon'],
       reporters: ['mocha'],
-      files: ['src/**/*.spec.ts'],
+      files: ['src/**/*.spec.ts', 'other/report/tsSolution/**/*.spec.ts'],
       exclude: [],
       preprocessors: {
          'src/**/*.spec.ts': ['webpack'],
+         'other/report/tsSolution/**/*.spec.ts': ['webpack'], 
       },
       webpack: {
          mode: 'development',
